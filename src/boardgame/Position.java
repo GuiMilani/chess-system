@@ -5,9 +5,9 @@ public class Position {
 	private Integer row;
 	private Integer column;
 	
-	public Position(Integer row, Integer columnInteger) {
+	public Position(Integer row, Integer column) {
 		this.row = row;
-		this.column = columnInteger;
+		this.column = column;
 	}
 
 	public Integer getRow() {
@@ -18,12 +18,12 @@ public class Position {
 		this.row = row;
 	}
 
-	public Integer getColumnInteger() {
+	public Integer getColumn() {
 		return column;
 	}
 
-	public void setColumnInteger(Integer columnInteger) {
-		this.column = columnInteger;
+	public void setColumn(Integer column) {
+		this.column = column;
 	}
 
 	@Override
